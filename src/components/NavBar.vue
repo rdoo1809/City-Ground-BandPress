@@ -1,7 +1,6 @@
 <script setup>
 import NavLink from "./NavLink.vue";
 import Logo from "/public/images/logo.png"
-
 </script>
 
 <template>
@@ -23,6 +22,7 @@ import Logo from "/public/images/logo.png"
 .nav {
   background-color: black;
   width: 100vw;
+  padding: 6px 0px;
 }
 
 .nav-list {
@@ -34,5 +34,4 @@ import Logo from "/public/images/logo.png"
 .logo {
   height: 100px;
 }
-
 </style>
