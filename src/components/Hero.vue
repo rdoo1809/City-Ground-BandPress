@@ -8,10 +8,10 @@ import HeroNolan from "/public/images/hero-nolan.jpeg";
 
 <template>
   <div class="container">
-    <HeroImage :image-src="HeroMack" />
-    <HeroImage :image-src="HeroAdam" />
-    <HeroImage :image-src="HeroLiam" />
-    <HeroImage :image-src="HeroNolan" />
+    <HeroImage :image-src="HeroMack" class="hero-image" />
+    <HeroImage :image-src="HeroAdam" class="hero-image" />
+    <HeroImage :image-src="HeroLiam" class="hero-image" />
+    <HeroImage :image-src="HeroNolan" class="hero-image" />
   </div>
 </template>
 
@@ -19,5 +19,38 @@ import HeroNolan from "/public/images/hero-nolan.jpeg";
 .container {
   display: flex;
   width: 100vw;
+}
+
+.hero-image {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 1s ease-out forwards;
+}
+
+.hero-image:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.hero-image:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.hero-image:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.hero-image:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>

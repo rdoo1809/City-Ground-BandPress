@@ -20,7 +20,6 @@ import Logo from "/public/images/logo.png"
 
 <style scoped>
 .nav {
-  background-color: black;
   width: 100vw;
   padding: 6px 0px;
 }
