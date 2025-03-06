@@ -7,13 +7,8 @@ import Logo from "/public/images/logo.png"
   <nav class="navbar navbar-expand-lg footer">
     <img class="logo" alt="City Ground Logo" :src="Logo"/>
 
-      <div>
-        <ul class="nav-list">
-          <NavLink title="HOME" href="#"/>
-          <NavLink title="UPCOMING" href="#"/>
-          <NavLink title="RELEASES" href="#"/>
-          <NavLink title="CONTACT" href="#"/>
-        </ul>
+    <div>
+      <p> &copy City Ground 2025</p>
     </div>
   </nav>
 </template>
@@ -24,10 +19,9 @@ import Logo from "/public/images/logo.png"
   padding: 6px 0px;
 }
 
-.nav-list {
-  padding: 0;
-  display: flex;
-  justify-content: center;
+p {
+  color: white;
+  margin: 0;
 }
 
 .logo {
