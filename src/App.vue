@@ -5,6 +5,7 @@ import Dates from "./components/Dates.vue";
 import InstaWidget from "./components/InstaWidget.vue";
 import CoverFlow from "./components/CoverFlow.vue";
 import Footer from "./components/Footer.vue";
+import Information from "./components/Information.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Footer from "./components/Footer.vue";
   <InstaWidget />
   <Dates />
   <CoverFlow />
+  <Information />
   <Footer />
 </template>
 
