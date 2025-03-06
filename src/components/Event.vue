@@ -72,10 +72,10 @@ const props = defineProps({
 }
 
 .date-info {
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Align items vertically */
-  flex-grow: 1; /* Take up the remaining space */
-  text-align: center; /* Center text */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .description {
@@ -96,4 +96,16 @@ const props = defineProps({
 .event-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+  .date-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .date-box {
+    margin-right: 0;
+  }
+}
+
 </style>
