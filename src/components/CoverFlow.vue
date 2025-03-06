@@ -15,6 +15,7 @@ onMounted(() => {
 
 <template>
   <div class="hero">
+    <h2>City Ground Originals</h2>
     <div class="carousel">
       <ul>
         <Release :image="CoverOne" link="https://www.youtube.com/watch?v=fagEbM5qvCw" />
@@ -31,7 +32,12 @@ onMounted(() => {
 }
 .hero .carousel {
   width: 300px;
-  margin: 100px auto;
+  margin: 50px auto;
   overflow: visible;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
 }
 </style>
