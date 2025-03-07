@@ -1,7 +1,7 @@
 <script setup>
 const props = defineProps({
   day: {
-    type: Number,
+    type: String,
     required: true
   },
   month: {
@@ -33,7 +33,7 @@ const props = defineProps({
     <div class="date-info">
       <h3 class="description">{{ title }}</h3>
       <p class="sub-description">{{ description }}</p>
-      <a v-if="link" target="_blank" :href="link" class="event-link">Venue Information</a>
+      <a v-if="link" target="_blank" :href="link" class="event-link">More Info Here</a>
     </div>
 
   </div>
