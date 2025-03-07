@@ -6,13 +6,12 @@ import Logo from "/public/images/logo.png"
 <template>
   <nav class="navbar navbar-expand-lg footer">
     <img class="logo" alt="City Ground Logo" :src="Logo"/>
-
       <div>
         <ul class="nav-list">
-          <NavLink title="HOME" href="#"/>
-          <NavLink title="UPCOMING" href="#"/>
-          <NavLink title="RELEASES" href="#"/>
-          <NavLink title="CONTACT" href="#"/>
+          <NavLink title="HOME" href="#navbar"/>
+          <NavLink title="UPCOMING" href="#upcoming"/>
+          <NavLink title="RELEASES" href="#releases"/>
+          <NavLink title="CONTACT" href="#information"/>
         </ul>
     </div>
   </nav>
@@ -21,7 +20,7 @@ import Logo from "/public/images/logo.png"
 <style scoped>
 .footer {
   width: 100vw;
-  padding: 6px 0px;
+  padding: 6px 0;
 }
 
 .nav-list {

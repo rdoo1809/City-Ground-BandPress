@@ -79,6 +79,7 @@ const props = defineProps({
 }
 
 .description {
+  font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;

@@ -3,7 +3,7 @@ import { defineProps } from 'vue';
 
 const props = defineProps({
   imageSrc: {
-    type: Object,
+    type: String,
     required: true
   }
 });

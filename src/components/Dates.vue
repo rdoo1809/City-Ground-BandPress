@@ -11,7 +11,7 @@ const torontoLink = "https://www.eventbrite.com/e/out-of-the-blues-in-support-of
   <div class="dates-container">
     <h2>Upcoming Dates</h2>
     <Event title="White Rabbit" description="Join us at the White Rabbit for our next accoustic gig!"
-           month="March" day="8 ":link="whiteRabbitLink"/>
+           month="March" day="8":link="whiteRabbitLink"/>
     <Event title="Room47" description="Join us at the Room47 to get your socks rocked off!" month="March" day="22"
            :link="room47Link"/>
     <Event title="Out of the Blues" description="Join us at our Toronto debut! Click the link for tickets."
