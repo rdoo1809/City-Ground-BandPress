@@ -7,13 +7,15 @@
       <div class="sub-container">
         <h2>GET IN TOUCH WITH US!</h2>
         <p>Book us for your next event, restaurant, wedding, we do it all!</p>
-        <p><a>CONTACT</a></p>
+        <p><a href="mailto:ChuckMartzBureep@pillars.com?subject=City Ground - Event Booking Inquiry">CONTACT</a></p>
       </div>
 
       <div class="sub-container">
         <h2>MERCH ORDER</h2>
         <p>Looking to rep City Ground? Order our T-Shirt today!</p>
-        <p><a>ORDER FORM</a></p>
+        <p><a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe54wqcSMFUl3yf18uDCn8uYJ2JNobaMFR0tEwRVg-UJOLh5g/viewform" target="_blank">
+          ORDER FORM</a></p>
       </div>
     </div>
   </div>
