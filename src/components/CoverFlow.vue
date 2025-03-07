@@ -28,7 +28,7 @@ onMounted(() => {
 
 <style scoped>
 .hero {
-  width: 100%;
+  width: 100vw;
 }
 .hero .carousel {
   width: 300px;
