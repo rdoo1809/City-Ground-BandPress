@@ -1,14 +1,18 @@
 <script setup>
 import NavLink from "./NavLink.vue";
 import Logo from "/public/images/logo.png"
+import SocialBanner from "./SocialBanner.vue";
 </script>
 
 <template>
   <nav class="navbar navbar-expand-lg footer">
     <img class="logo" alt="City Ground Logo" :src="Logo"/>
 
-    <div>
-      <p> &copy City Ground 2025</p>
+    <SocialBanner />
+
+    <div class="copyright">
+      <p>&copy City Ground 2025</p>
+      <p>RJD</p>
     </div>
   </nav>
 </template>
@@ -16,7 +20,7 @@ import Logo from "/public/images/logo.png"
 <style scoped>
 .footer {
   width: 100vw;
-  padding: 6px 0px;
+  padding: 20px 0px;
 }
 
 p {
@@ -26,5 +30,10 @@ p {
 
 .logo {
   height: 100px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-evenly;
 }
 </style>
