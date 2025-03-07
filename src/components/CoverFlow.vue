@@ -30,14 +30,10 @@ onMounted(() => {
 .hero {
   width: 100vw;
 }
+
 .hero .carousel {
   width: 300px;
   margin: 50px auto;
   overflow: visible;
-}
-
-h2 {
-  font-size: 2rem;
-  color: white;
 }
 </style>

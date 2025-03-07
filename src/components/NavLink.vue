@@ -24,6 +24,7 @@ export default {
 <style scoped>
 .nav-item{
   list-style: none;
+  font-family: "Oswald", sans-serif;
 }
 
 .nav-link{

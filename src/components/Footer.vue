@@ -12,7 +12,7 @@ import SocialBanner from "./SocialBanner.vue";
 
     <div class="copyright">
       <p>&copy City Ground 2025</p>
-      <p>RJD</p>
+      <p><a href=https://rjdooley.ca target="_blank">RJD</a></p>
     </div>
   </nav>
 </template>
@@ -26,6 +26,12 @@ import SocialBanner from "./SocialBanner.vue";
 p {
   color: white;
   margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .logo {

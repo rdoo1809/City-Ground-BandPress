@@ -40,21 +40,18 @@
 .sub-container {
   flex: 1;
   padding: 20px;
-}
-
-.sub-container h2 {
-  font-size: 1.5rem;
   margin-bottom: 10px;
-  color: white;
-}
-
-.sub-container p {
-  color: white;
 }
 
 a {
   color: white;
   text-decoration: underline;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: white;
 }
 
 @media (max-width: 500px) {
