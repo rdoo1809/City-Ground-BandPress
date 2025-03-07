@@ -9,12 +9,12 @@ import Information from "./components/Information.vue";
 </script>
 
 <template>
-  <NavBar />
+  <NavBar id="navbar" />
   <Hero />
   <InstaWidget />
-  <Dates />
-  <CoverFlow />
-  <Information />
+  <Dates id="upcoming" />
+  <CoverFlow id="releases" />
+  <Information id="information" />
   <Footer />
 </template>
 

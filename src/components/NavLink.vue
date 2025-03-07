@@ -35,8 +35,4 @@ export default {
 .nav-link:hover {
   color: rgb(0, 197, 255);
 }
-
-.nav-link.active {
-  color: rgb(0, 197, 255);
-}
 </style>
