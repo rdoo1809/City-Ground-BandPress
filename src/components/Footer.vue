@@ -31,7 +31,7 @@ p {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .logo {
@@ -40,6 +40,7 @@ a {
 
 .copyright {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 </style>

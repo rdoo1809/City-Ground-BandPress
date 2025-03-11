@@ -83,6 +83,7 @@ const props = defineProps({
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
+  color: #213547
 }
 
 .sub-description {
