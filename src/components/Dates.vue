@@ -16,6 +16,8 @@ const torontoLink = "https://www.eventbrite.com/e/out-of-the-blues-in-support-of
            :link="room47Link"/>
     <Event title="Out of the Blues" description="Join us at our Toronto debut! Click the link for tickets."
            month="March" day="26" :link="torontoLink"/>
+<Event title="New Event" description="should be good"
+  month="April" day="23" link="http://localhost:8000/dashboard" />
 </div>
 </template>
 
