@@ -22,6 +22,7 @@ onMounted(() => {
         <Release :image="CoverTwo" link="https://www.youtube.com/watch?v=fagEbM5qvCw" />
         <Release :image="CoverOne" link="https://www.youtube.com/watch?v=fagEbM5qvCw" />
       <Release image="/public/images/YqOpZbHbJq7kNf684kzxdDtHegvwyNpLMGUPlX6z.png" link="http://localhost:8000/dashboard" />
+<Release image="City-Ground/images/WyLnTH1t8F7YuWZKxMFTuGZ1C0OPJk8mWNynoGNZ.png" link="http://localhost:8000/dashboard" />
 </ul>
     </div>
   </div>
