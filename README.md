@@ -2,4 +2,4 @@
 
 Work in progress site for City Ground band.
 
-https://rdoo1809.github.io/City-Ground/
+https://rdoo1809.github.io/City-Ground-BandPress/
