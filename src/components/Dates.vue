@@ -18,6 +18,8 @@ const torontoLink = "https://www.eventbrite.com/e/out-of-the-blues-in-support-of
            month="March" day="26" :link="torontoLink"/>
 <Event title="New Event" description="should be good"
   month="April" day="23" link="http://localhost:8000/dashboard" />
+<Event title="New Event" description="should be good"
+  month="april" day="23" link="http://localhost:8000/dashboard" />
 </div>
 </template>
 
