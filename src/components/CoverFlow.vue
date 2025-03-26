@@ -21,7 +21,8 @@ onMounted(() => {
         <Release :image="CoverOne" link="https://www.youtube.com/watch?v=fagEbM5qvCw"/>
         <Release :image="CoverTwo" link="https://www.youtube.com/watch?v=fagEbM5qvCw"/>
         <Release :image="CoverOne" link="https://www.youtube.com/watch?v=fagEbM5qvCw"/>
-      </ul>
+      <Release image="/City-Ground/images/cO6NHCjNVbAMcxtuxhUK4Nr2rmarQ89LWjWk7wEW.png" link="http://localhost:8000/dashboard" />
+</ul>
     </div>
   </div>
 </template>
