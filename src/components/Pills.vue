@@ -79,22 +79,6 @@ const events = ref([
     day: '12',
     link: 'https://whiterabbitwaterloo.com'
   }
-,
-  {
-    title: "Test Event",
-    description: "This is a test",
-    month: "April",
-    day: "20",
-    link: "https://venue.com"
-  }
-,
-  {
-    title: "Test Event",
-    description: "This is a test",
-    month: "April",
-    day: "20",
-    link: "https://venue.com"
-  }
 ])
 
 const isPastEvent = (month, day) => {
