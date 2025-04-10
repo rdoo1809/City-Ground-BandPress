@@ -16,11 +16,9 @@ const torontoLink = "https://www.eventbrite.com/e/out-of-the-blues-in-support-of
            :link="room47Link"/>
     <Event title="Out of the Blues" description="Join us at our Toronto debut! Click the link for tickets."
            month="March" day="26" :link="torontoLink"/>
-  <Event title="Test Event" description="Foobar Glurbar"
-  month="April" day="20" link="https://rdoo1809.github.io/City-Ground-BandPress/" />
-<Event title="White Rabbit Acoustic Jam" description="Join us at the white rabbit for our 3-hour acoustic show!"
-  month="April" day="12" link="https://whiterabbitwaterloo.com" />
-</div>
+    <Event title="White Rabbit Acoustic Jam" description="Join us at the white rabbit for our 3-hour acoustic show!"
+           month="April" day="12" link="https://whiterabbitwaterloo.com"/>
+  </div>
 </template>
 
 <style scoped>

@@ -36,7 +36,6 @@
   gap: 20px;
   padding: 20px;
   background: linear-gradient(45deg, rgba(0, 197, 255, 0.53), rgba(144, 48, 112, 0.55));
-
 }
 
 .sub-container {

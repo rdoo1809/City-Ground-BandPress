@@ -6,15 +6,19 @@ import InstaWidget from "./components/InstaWidget.vue";
 import CoverFlow from "./components/CoverFlow.vue";
 import Footer from "./components/Footer.vue";
 import Information from "./components/Information.vue";
+import Pills from "./components/Pills.vue";
 </script>
 
 <template>
   <NavBar id="navbar" />
   <Hero />
-  <InstaWidget />
+<!--  <InstaWidget />-->
   <Dates id="upcoming" />
   <CoverFlow id="releases" />
   <Information id="information" />
+
+  <Pills />
+
   <Footer />
 </template>
 
