@@ -50,6 +50,7 @@ const activeTab = ref('going')
 
 const events = ref([
   
+  
   {
     title: 'White Rabbit',
     description: 'Join us at the White Rabbit for our next acoustic gig!',
@@ -77,6 +78,14 @@ const events = ref([
     month: 'April',
     day: '12',
     link: 'https://whiterabbitwaterloo.com'
+  }
+,
+  {
+    title: "Test Event",
+    description: "This is a test",
+    month: "April",
+    day: "20",
+    link: "https://venue.com"
   }
 ,
   {
