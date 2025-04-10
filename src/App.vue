@@ -12,13 +12,11 @@ import Pills from "./components/Pills.vue";
 <template>
   <NavBar id="navbar" />
   <Hero />
-<!--  <InstaWidget />-->
-  <Dates id="upcoming" />
+  <InstaWidget />
+<!--  <Dates id="upcoming" />-->
+  <Pills id="upcoming" />
   <CoverFlow id="releases" />
   <Information id="information" />
-
-  <Pills />
-
   <Footer />
 </template>
 

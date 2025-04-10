@@ -12,7 +12,7 @@ import SocialBanner from "./SocialBanner.vue";
 
     <div class="copyright">
       <p>&copy City Ground 2025</p>
-      <p><a href=https://rjdooley.ca target="_blank">RJD</a></p>
+      <p><a href=https://band-press-main-7qzk6r.laravel.cloud/ target="_blank">Band Press</a></p>
     </div>
   </nav>
 </template>
@@ -23,15 +23,10 @@ import SocialBanner from "./SocialBanner.vue";
   padding: 20px 0px;
 }
 
-p {
+p, a {
   color: white;
   margin: 0;
   font-family: "Oswald", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.2);
 }
 
 .logo {
