@@ -51,6 +51,7 @@ const activeTab = ref('going')
 const events = ref([
   
   
+  
   {
     title: 'White Rabbit',
     description: 'Join us at the White Rabbit for our next acoustic gig!',
@@ -78,6 +79,14 @@ const events = ref([
     month: 'April',
     day: '12',
     link: 'https://whiterabbitwaterloo.com'
+  }
+,
+  {
+    title: "My Event",
+    description: "xmas throwdown",
+    month: "December",
+    day: "24",
+    link: "https://band-press-main-7qzk6r.laravel.cloud/dashboard"
   }
 ])
 
